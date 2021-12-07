@@ -32,7 +32,8 @@ public class Conta {
 
 	void transferir(double valorTransferencia, Conta contaDestino) {
 		if (temSaldo(valorTransferencia)) {
-			
+			this.saldo -= valorTransferencia;
+			contaDestino.saldo += valorTransferencia;
 		}
 	}
 }
