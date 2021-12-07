@@ -1,12 +1,12 @@
 package aula06;
 
-public class Data {
+public class Data { //classe data
 
-int dia;
+int dia; //atributo
 int mes;
 int ano;
 
-String exibirData() {
+String exibirData() { //metodo
 	return this.dia + "/" + this.mes + "/" + this.ano;
 }
 }
