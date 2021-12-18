@@ -16,7 +16,7 @@ public class Quarto {
 
 		Random aleatorio = new Random(); // para gerar numero aleatorio
 
-		numAleatorio = aleatorio.nextInt(5 + 1); // para gerar um numero entre 1 e 5
+		numAleatorio = aleatorio.nextInt(5 + 1); // para gerar um numero de 0 a 5
 
 		while (numero != numAleatorio) {
 			System.out.println("Você errou, o número correto era " + numAleatorio);
@@ -32,7 +32,7 @@ public class Quarto {
 
 		}
 
-		entrada.close();
+		entrada.close(); //para encerrar o scanner
 	}
 
 }
