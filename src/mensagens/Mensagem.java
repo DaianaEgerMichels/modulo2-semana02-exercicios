@@ -4,7 +4,7 @@ public class Mensagem {
 	private Pessoa remetente;
 	private String corpoDeTexto;
 	
-	public Mensagem(Pessoa remetente, string corpoDeTexto) {
+	public Mensagem(Pessoa remetente, String corpoDeTexto) {
 		this.remetente = remetente;
 		this.corpoDeTexto = corpoDeTexto;
 	}
@@ -13,7 +13,7 @@ public class Mensagem {
 		return remetente;
 	}
 	
-	public Pessoa getCorpoDeTexto() {
+	public String getCorpoDeTexto() {
 		return corpoDeTexto;
 	}
 }
