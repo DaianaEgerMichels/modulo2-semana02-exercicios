@@ -13,11 +13,11 @@ public class Jokenpo {
 		jogadorUm = 0;
 		jogadorDois = 0;
 
-		String jogada;
-		jogada = "";
+	
 		System.out.println("Informe a jogada:");
-		jogada = keyboard.nextLine();
-
+		
+		String jogada = keyboard.nextLine();
+		
 		while (jogada.length() > 0) {
 			System.out.println("Informe a jogada:");
 			jogada = keyboard.nextLine();

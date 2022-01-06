@@ -62,9 +62,9 @@ public class CaloriasDiarias {
 			};
 			
 			if (genero.equals("M")) {
-				System.out.printf("Você precisa de uma dieta de %2f kcal/dia", consumoDiarioHomem);
+				System.out.printf("Você precisa de uma dieta de %.3f kcal/dia", consumoDiarioHomem);
 			} else {
-				System.out.printf("Você precisa de uma dieta de %2f kcal/dia", consumoDiarioMulher);
+				System.out.printf("Você precisa de uma dieta de %.3f kcal/dia", consumoDiarioMulher);
 			}
 		}
 		
